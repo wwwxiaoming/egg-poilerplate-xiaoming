@@ -18,11 +18,11 @@
     "build": "npm run clean && egg-init dist --force --silent --template=./",
     "install-deps": "cd dist && npm i autod-egg && ../node_modules/.bin/autod && npm i"
   },
-  "homepage": "https://github.com/unclexiao/egg-boilerplate-mp",
-  "bugs": "https://github.com/unclexiao/egg-boilerplate-mp/issues",
+  "homepage": "https://github.com/wwwxiaoming/egg-poilerplate-xiaoming",
+  "bugs": "https://github.com/wwwxiaoming/egg-poilerplate-xiaoming/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:unclexiao/egg-boilerplate-mp.git"
+    "url": "https://github.com/wwwxiaoming/egg-poilerplate-xiaoming.git"
   },
   "devDependencies": {
     "autod": "^3.0.1",

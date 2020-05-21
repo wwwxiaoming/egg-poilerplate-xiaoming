@@ -24,9 +24,13 @@ module.exports = appInfo => {
   config.cluster = {
     listen: {
       path: '',
-      port: 8000,
+      port: 8001,
       hostname: '127.0.0.1',
     }
+  };
+  // 鉴权的配置，秘钥
+  config.jwt = {
+    secret: 'xiaoming',
   };
 
   config.cors = {
@@ -37,7 +41,7 @@ module.exports = appInfo => {
 
 
   config.security = {
-    // 关闭csrf验证
+    // 打开csrf验证
     csrf: {
       enable: true,
     },

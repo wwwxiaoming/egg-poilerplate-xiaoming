@@ -1,7 +1,7 @@
 {
   "name": "{{name}}",
   "version": "1.0.0",
-  "description": "小明egg手脚架",
+  "description": "小明egg脚手架",
   "private": true,
   "egg": {
     "declarations": true
@@ -12,7 +12,16 @@
     "egg-cors": "^2.2.0",
     "egg-mongoose": "^3.2.0",
     "egg-redis": "^2.4.0",
-	"egg-view-ejs": "^2.0.1"
+    "egg-view-ejs": "^2.0.1",
+    "egg-mysql": "^3.0.0",
+    "egg-sequelize": "^5.2.1",
+    "js-cache": "^1.0.3",
+    "xiaoming-mssql": "^1.0.1",
+    "mysql2": "^2.1.0",
+    "pg": "^8.0.2",
+    "pg-hstore": "^2.3.3",
+    "tedious": "^8.2.0",
+    "egg-jwt": "^3.1.7"
   },
   "devDependencies": {
     "autod": "^3.0.1",

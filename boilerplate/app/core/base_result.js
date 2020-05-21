@@ -11,8 +11,7 @@ class BaseController extends Controller {
       Result: data,
     };
   }
-
-  fail(message) {
+  err(message) {
     this.ctx.body = {
       Status: false,
       Message: message,

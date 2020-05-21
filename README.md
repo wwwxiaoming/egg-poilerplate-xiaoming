@@ -1,17 +1,10 @@
-# egg-boilerplate-xiaoming2
+# egg-boilerplate-xiaoming
 
-[![npm version](https://badge.fury.io/js/egg-boilerplate-mp.svg)](https://badge.fury.io/js/egg-boilerplate-mp)
-
-微信公众平台后端模板
 
 ## 安装
 
 ```bash
 $ mkdir tell-demo && cd tell-demo # 初始化项目
-$ npm init tell --type=xiaoming2 # 下载脚手架
+$ npm init egg --package=egg-boilerplate-xiaoming # 下载脚手架
 $ npm install # 安装模块
 $ npm run dev # 运行项目
-$ open http://localhost:7001 # 打开浏览器
-```
-
-更多信息请查看 [create-tell](https://github.com/unclexiao/create-tell) 
